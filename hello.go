@@ -2,6 +2,7 @@ package hello
 
 import "fmt"
 
-func SayHi() {
-	fmt.Println("你好，很高兴认识你。v0.1.2")
+// SayHi 向指定人打招呼的函数
+func SayHi(name string) {
+	fmt.Printf("你好%s，很高兴认识你。\n", name)
 }
